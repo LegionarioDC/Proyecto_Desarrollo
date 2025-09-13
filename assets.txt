@@ -1,6 +1,8 @@
 ASSETS:
 
-    Images:
+    Images:  (Order of addition)
+        1. Work_in_progress.png
+        2. Work_in_progress2.png
     
 
     Sections:  (order of creation)
