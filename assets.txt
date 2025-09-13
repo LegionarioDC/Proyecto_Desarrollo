@@ -3,8 +3,8 @@ ASSETS:
     Images:
     
 
-    Sections:
+    Sections:  (order of creation)
         1. index.html
         2. how2commit.txt
         3. assets.txt
-        
+        4. styles.css
