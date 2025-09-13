@@ -1,0 +1,23 @@
+1. En VSC, abre la pestaña de Source Control 
+(icono de ramas a la izquierda).
+
+2. Verás index.html en cambios → escribe un mensaje de commit 
+(ej: "Primer commit: index.html") y pulsa ✓ Commit.
+
+3.Pulsa en Sync Changes o ejecuta en terminal:
+
+git add .
+git commit -m "Primer commit: index.html"
+git push origin main
+
+4. Cada vez que avances en el proyecto:
+
+Guarda cambios en tus archivos.
+
+Haz commit con un mensaje claro:
+
+git add .
+git commit -m "Agregada sección contacto con formulario"
+git push origin main
+
+En GitHub verás tu proyecto actualizado.
