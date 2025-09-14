@@ -10,17 +10,26 @@
   <h1>Titulo</h1>
   <img src="images/Work_in_progress2.png" alt="Work in progress sign">
   <section>
-  <h2>Mi contenido estará <a href="https://totaljerkface.com/happy_wheels.tjf">aqui</a></h2> <!-- Enlace a otra página -->
+  <h2>Si se aburre, pinche <a href="https://totaljerkface.com/happy_wheels.tjf">aqui</a></h2> <!-- Enlace a otra página -->
   <h3>Rellene este formulario inutil si quiere:</h3>
+  <fieldset> <!-- Agrupa elementos relacionados en un formulario -->
+    <legend>Formulario de contacto (v.beta)</legend> <!-- Título del fieldset -->
   <form action="#" method="post"> <!-- Formulario -->
     <label for="name">Nombre:</label> <!-- Campo de texto -->
-    <input type="text" id="name" name="name" required> <!-- required hace que sea obligatorio-->
+    <input type="text" placeholder="Pepito Grillo" id="name" name="name" required> <!-- required hace que sea obligatorio-->
     <br> <!-- Salto de línea -->
     <label for="email">Email:</label> <!-- Campo de email -->
-    <input type="email" id="email" name="email" required> 
+    <input type="email" placeholder="pgrillo@cricketmail.com" id="email" name="email" required> 
+    <br>
+    <input type="radio" id="Male" name="gender">Male</input>
+    <br>
+    <input type="radio" id="Female" name="gender">Female</input>
+    <br>
+    <input checked type="radio" id="Plattapus" name="gender">Plattapus</input>
     <br> 
-    <input type="submit" value="Enviar"> <!-- Botón de envío -->
-  </form>
+    <button type="submit"> Enviar</button> <!-- Botón de envío -->
+  </form> 
+  </fieldset>
   <br>
   <h3>Pruebas de etiquetas de texto</h3>
   <p> prueba de <strong>strong</strong></p> <!-- Diferentes etiquetas de texto -->
