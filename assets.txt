@@ -3,6 +3,7 @@ ASSETS:
     Images:  (Order of addition)
         1. Work_in_progress.png
         2. Work_in_progress2.png
+        3. Mario_Drift.png
     
 
     Sections:  (order of creation)
@@ -10,3 +11,9 @@ ASSETS:
         2. how2commit.txt
         3. assets.txt
         4. styles.css
+
+Possible Themes:
+    1. Mario Kart
+    2. Hallo 
+    3. Music/Guitars
+    4. 
